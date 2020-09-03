@@ -6,4 +6,4 @@ def f(n):
             print("%d"%(i))
         i = i+1
 if __name__ == '__main__':
-    f(10)
+    f(100)
