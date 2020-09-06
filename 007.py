@@ -2,10 +2,10 @@
 def f(n):
     i = 1
     while i <= n:
-        if n % 3==0:
+        if i % 3==0:
             print("짝")
         else:
-            print(n)
+            print(i)
         i = i+1
         
 if __name__=="__main__":
