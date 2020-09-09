@@ -10,3 +10,11 @@ def f(n):
         print("소수") 
     else:
         print("합성수")
+
+    if __name__=="__main__":
+        f(19)
+        f(130)
+        f(37)
+        f(20)
+        f(21)
+
