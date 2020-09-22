@@ -8,5 +8,10 @@ def solve (n):
         i = i+1
 
 if __name__=="__main__":
+<<<<<<< HEAD
     n = int(input("입력:"))
     solve(n)
+=======
+    n = int(input("입력"))
+    solve(n)
+>>>>>>> 979a6d37a71a0c95f8d37b8f54bc55373686d278
