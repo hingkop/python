@@ -1,6 +1,8 @@
 #소수 구하기
-#생리 미친놈
+True = 1
+False = 0
 def calc_prime(n):
+    check = [True] * 1000
     cnt = 0
     i = 2
     k = 1
