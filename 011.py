@@ -1,3 +1,20 @@
-#저는 오늘 면허 학원을 다녀왔습니다.
-#내일부터 다시 화이팅..!
-#사랑합니다 여러분..!
+#소수 구하기
+#생리 미친놈
+def calc_prime(n):
+    cnt = 0
+    i = 2
+    k = 1
+    while i < n:
+        if check[i] == True:
+            print(i)
+            j = 1 
+            while j < n :
+                check[j] = False
+                k = k+1
+                j = i* k
+
+
+
+if __name__=="__main__":
+    n = 20 
+    calc_prime(n)
