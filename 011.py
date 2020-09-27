@@ -15,7 +15,8 @@ def calc_prime(n):
                 k = k+1
                 j = i* k
 
-
+            k = 1
+        i = i+1
 
 if __name__=="__main__":
     n = 20 
